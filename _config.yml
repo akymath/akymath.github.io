@@ -17,7 +17,7 @@ url: "https://akymath.github.io"
 # =============================
 # Theme Settings
 # =============================
-theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: default
 
 # Site logo
@@ -69,11 +69,13 @@ nav:
 # Plugins (for Jekyll & GitHub Pages)
 # =============================
 plugins:
+plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-archives
+  - jekyll-remote-theme
 
 paginate: 5
 paginate_path: "/page:num/"
