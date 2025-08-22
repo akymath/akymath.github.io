@@ -1,23 +1,90 @@
+# =============================
+# Site Information
+# =============================
+title: "Aditya Kumar Yadav"
+name: "Aditya Kumar Yadav"
+email: "adityakumaryadaav448@gmail.com"
+description: >
+  PhD Candidate in Mathematics, specializing in Probability Theory. 
+  My research focuses on continuous probability distributions, 
+  parsimonious methods to generate new distributions, 
+  and their mathematical properties with applications across disciplines.
+
+baseurl: ""   # leave empty for GitHub Pages
+url: "https://akymath.github.io"
+
+# =============================
+# Theme Settings
+# =============================
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: default
+
+# Site logo
+logo: "/images/profile.jpg"
+
 # Author Information
 author:
-  name             : "Aditya Kumar Yadav"
-  avatar           : "/images/profile.jpg"   # put your profile picture in /images/ and rename it
-  bio              : "PhD student in Probability Theory. My research focuses on continuous probability distributions, developing new distributions via parsimonious methods, and exploring their applications."
-  location         : "India"
-  university       : "Tezpur University"   # replace with your actual university
-  email            : "adityakumaryadav448@gmail.com"
-  scholar          : ""  # <-- replace with your link
-  github           : "akymath"   # replace with your GitHub username
-  linkedin         : ""  # optional
-  orcid            : ""     # optional
-  twitter          : ""   # optional
+  name: "Aditya Kumar Yadav"
+  avatar: "/images/profile.jpg"
+  bio: >
+    I am currently pursuing a PhD in Probability Theory. 
+    My work focuses on continuous probability distributions, 
+    developing parsimonious methods to construct new ones, 
+    and studying their theoretical properties and applications.
+  location: "India"
+  email: "adityakumaryadaav448@gmail.com"
+  links:
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:your_email@example.com"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/akymath"
+    - label: "Google Scholar"
+      icon: "fas fa-graduation-cap"
+      url: "https://scholar.google.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/"
 
-# Sidebar settings
-sidebar:
-  nav: "docs"
+# =============================
+# Navigation
+# =============================
+# Add menu links for site pages
+nav:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "Research"
+    url: /research/
+  - title: "Publications"
+    url: /publications/
+  - title: "CV"
+    url: /cv.pdf
+  - title: "Contact"
+    url: /contact/
 
-# Site Settings
-title              : "Aditya Kumar Yadav / Probability Theory"
-description        : "Personal academic homepage of Aditya Kumar Yadav – Probability Theory, Distributions, Survival Analysis"
-url                : "https://akymath.github.io"
-minimal_mistakes_skin: "dark"   # options: default, air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
+# =============================
+# Plugins (for Jekyll & GitHub Pages)
+# =============================
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-archives
+
+paginate: 5
+paginate_path: "/page:num/"
+
+# =============================
+# Markdown & Output
+# =============================
+markdown: kramdown
+highlighter: rouge
+
+# =============================
+# Build Settings
+# =============================
+permalink: pretty
