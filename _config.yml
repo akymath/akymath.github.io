@@ -88,3 +88,13 @@ highlighter: rouge
 # Build Settings
 # =============================
 permalink: pretty
+# Include custom pages
+include: ["_pages"]
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
