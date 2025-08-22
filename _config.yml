@@ -1,6 +1,7 @@
 # =============================
 # Site Information
 # =============================
+
 title: "Aditya Kumar Yadav"
 name: "Aditya Kumar Yadav"
 email: "adityakumaryadaav448@gmail.com"
@@ -50,7 +51,6 @@ author:
 # =============================
 # Navigation
 # =============================
-# Add menu links for site pages
 nav:
   - title: "Home"
     url: /
@@ -88,10 +88,21 @@ highlighter: rouge
 # Build Settings
 # =============================
 permalink: pretty
-# Include custom pages
 include: ["_pages"]
 
+# =============================
+# Layout Defaults
+# =============================
 defaults:
+  # Homepage
+  - scope:
+      path: ""
+      type: "index"
+    values:
+      layout: home
+      author_profile: true
+
+  # Other pages
   - scope:
       path: ""
       type: pages
