@@ -20,9 +20,6 @@ url: "https://akymath.github.io"
 remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: default
 
-# Site logo
-logo: "/images/profile.jpg"
-
 # Author Information
 author:
   name: "Aditya Kumar Yadav"
@@ -63,7 +60,6 @@ nav:
 # =============================
 # Plugins (for Jekyll & GitHub Pages)
 # =============================
-plugins:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
