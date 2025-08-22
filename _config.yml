@@ -27,11 +27,6 @@ logo: "/images/profile.jpg"
 author:
   name: "Aditya Kumar Yadav"
   avatar: "/images/profile.jpg"
-  bio: >
-    I am currently pursuing a PhD in Probability Theory. 
-    My work focuses on continuous probability distributions, 
-    developing parsimonious methods to construct new ones, 
-    and studying their theoretical properties and applications.
   location: "India"
   email: "adityakumaryadaav448@gmail.com"
   links:
